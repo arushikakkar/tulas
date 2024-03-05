@@ -6,8 +6,9 @@ import MacBookPro16One from "pages/MacBookPro16One";
 
 const ProjectRoutes = () => {
   let element = useRoutes([
-    { path: "/", element: <Home /> },
+    { path: "/", element: <MacBookPro16One /> },
     { path: "*", element: <NotFound /> },
+    
     {
       path: "macbookpro16one",
       element: <MacBookPro16One />,
