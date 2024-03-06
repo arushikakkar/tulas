@@ -8,7 +8,6 @@ const ProjectRoutes = () => {
   let element = useRoutes([
     { path: "/", element: <MacBookPro16One /> },
     { path: "*", element: <NotFound /> },
-    
     {
       path: "macbookpro16one",
       element: <MacBookPro16One />,
